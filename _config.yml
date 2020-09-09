@@ -9,12 +9,12 @@ google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Thomas Zühlke'
-  email: info@thomas-zuehlke.de
-  twitter_username: thomzuehlke
+  name: 'Daniel Cabral de Souza'
+  email: daniel-cabral14@hotmail.com
+  twitter_username: danielcsouza97
 #  facebook_username: joshgerdes
-  github_username:  tzuehlke
-  linkedin_username:  thomas-zühlke-889182165
+  github_username:  DanielCabral
+  linkedin_username:  daniel-cabral-3a5032148
 #meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
