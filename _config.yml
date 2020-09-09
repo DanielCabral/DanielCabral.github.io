@@ -1,19 +1,19 @@
 # Site settings
-title: Thomas Zühlke
+title: Daniel Cabral de Souza
 description: 'Business Card Page'
 url: 'http://thomas.zuehlke.family'
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
+profilepic: '/images/daniel.jpeg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Thomas Zühlke'
-  email: info@thomas-zuehlke.de
-  twitter_username: thomzuehlke
-#  facebook_username: joshgerdes
-  github_username:  tzuehlke
+  name: 'Daniel Cabral de Souza'
+  email: daniel-cabral14@hotmail.com
+  twitter_username: danielcsouza97
+#  facebook_username: daniel.07
+  github_username:  DanielCabral
   linkedin_username:  thomas-zühlke-889182165
   meetup_name: Azure-Meetup-Rostock-MV
 
