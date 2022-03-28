@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comentários sobre Daniel Dev	</title>
+	Comentários sobre: Hospedando Site WordPress no Github Pages	</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../index.html</link>
+	<link>./../index.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hospedando-site-wordpress-no-github-pages</link>
 	<description></description>
-	<lastBuildDate>Sun, 27 Mar 2022 22:34:39 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 27 Mar 2022 00:06:10 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>

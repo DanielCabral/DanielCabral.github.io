@@ -11,30 +11,37 @@
 	<title>Sem categoria - Daniel Dev</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
-	<description>Só mais um site WordPress</description>
-	<lastBuildDate>Sat, 26 Mar 2022 15:39:22 +0000</lastBuildDate>
+	<description></description>
+	<lastBuildDate>Sun, 27 Mar 2022 00:06:10 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.9.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2022/03/logo-daniel-dev-1.png</url>
+	<title>Sem categoria - Daniel Dev</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
-		<title>Olá, mundo!</title>
-		<link>./../../../ola-mundo/index.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ola-mundo</link>
-					<comments>./../../../ola-mundo/index.html#comments</comments>
+		<title>Hospedando Site WordPress no Github Pages</title>
+		<link>./../../../hospedando-site-wordpress-no-github-pages/index.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hospedando-site-wordpress-no-github-pages</link>
+					<comments>./../../../hospedando-site-wordpress-no-github-pages/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[danieldevadmin]]></dc:creator>
-		<pubDate>Sat, 26 Mar 2022 15:39:22 +0000</pubDate>
+		<pubDate>Sat, 26 Mar 2022 23:44:50 +0000</pubDate>
 				<category><![CDATA[Sem categoria]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+		<guid isPermaLink="false">./../../../index.html?p=309</guid>
 
-					<description><![CDATA[<p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p>
-<p>The post <a href="./../../../ola-mundo/index.html">Olá, mundo!</a> first appeared on <a href="./../../../index.html">Daniel Dev</a>.</p>]]></description>
-										<content:encoded><![CDATA[<p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p><p>The post <a href="./../../../ola-mundo/index.html">Olá, mundo!</a> first appeared on <a href="./../../../index.html">Daniel Dev</a>.</p>]]></content:encoded>
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>./../../../ola-mundo/feed/index.html</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+					<wfw:commentRss>./../../../hospedando-site-wordpress-no-github-pages/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		
 		
 			</item>
