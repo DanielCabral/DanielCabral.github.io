@@ -992,31 +992,30 @@ Dev					</span>
 				
 									<!-- contact form -->
 					<div class="contact-form">
-						<div role="form" class="wpcf7" id="wpcf7-f7-p170-o1" lang="pt-BR" dir="ltr">
-<div class="screen-reader-response">
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-</div>
-<form action="/daniel/#wpcf7-f7-p170-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="7">
-<input type="hidden" name="_wpcf7_version" value="5.5.6">
-<input type="hidden" name="_wpcf7_locale" value="pt_BR">
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-p170-o1">
-<input type="hidden" name="_wpcf7_container_post" value="170">
-<input type="hidden" name="_wpcf7_posted_data_hash" value="">
-</div>
-<p><label> Seu nome<br>
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
-<p><label> Seu e-mail<br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </label></p>
-<p><label> Assunto<br>
-    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
-<p><label> Sua mensagem (opcional)<br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
-<p><input type="submit" value="Enviar" class="wpcf7-form-control has-spinner wpcf7-submit"></p>
-<div class="wpcf7-response-output" aria-hidden="true"></div>
-</form>
-</div>					</div>
+					<form
+					  target="_blank"
+					  action="https://formspree.io/f/mgedlkyk"
+					  method="POST"
+					  class="wpcf7-form init"
+					  name="contact-form"
+					>
+					  <label>
+						Seu nome:
+						<input type="text" name="nome">
+					  </label>
+					  <label>
+						Seu E-mail:
+						<input type="email" name="email">
+					  </label>
+					  <label>
+						Sua mensagem:
+						<textarea name="mensagem"></textarea>
+					  </label>
+					  <!-- your other form fields go here -->
+					  <button type="button" value="Submit" id="btnsubmit" onclick="submitForm()">Enviar</button>
+					</form>
+					
+					</div>
 				
 				<!-- contact info -->
 				<div class="contact-info">
@@ -1161,6 +1160,17 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 </script>
 <script type="text/javascript" src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.1" id="elementor-frontend-js"></script>
 <script type="text/javascript" src="./wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.2" id="pro-elements-handlers-js"></script>
-
+<script>
+function submitForm() {
+   // Get the first form with the name
+   // Usually the form name is not repeated
+   // but duplicate names are possible in HTML
+   // Therefore to work around the issue, enforce the correct index
+   var frm = document.getElementsByName('contact-form')[0];
+   frm.submit(); // Submit the form
+   frm.reset();  // Reset all form data
+   return false; // Prevent page refresh
+}
+</script>
 </body>
 </html>
